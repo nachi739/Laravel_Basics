@@ -4,7 +4,7 @@
  
         <div class="container mt-4">
            
-            <div class="card mt-4">
+            <div class="card mb-4">
                 <div class="card-header mb-2">
                     {{ $post->title }}
                 </div>
@@ -20,7 +20,6 @@
                     </span>
                 </div>
             </div>
-        </div>
         
         <div class="mt-4 text-right">
             <a class="btn btn-primary" href="{{route('posts.edit', ['post' => $post])}}">

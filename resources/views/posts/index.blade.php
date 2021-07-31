@@ -9,7 +9,7 @@
                 </a>
             </div>
             @foreach ($posts as $post)
-            <div class="card mt-4">
+            <div class="card mb-4">
                 <div class="card-header mb-2">
                     {{ $post->title }}
                 </div>
