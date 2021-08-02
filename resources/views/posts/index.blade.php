@@ -14,7 +14,7 @@
                     {{ $post->title }}
                 </div>
                 <div class="card-body">
-                    <p class="card-body">
+                    <p class="card-text">
                         {{ $post->body }}
                     </p>
                     <a class="card-link" href={{route('posts.show', ['post' => $post])}}>
